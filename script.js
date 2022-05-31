@@ -1,6 +1,6 @@
 'use strict';
 
-let lang = "en";
+let lang = "ru";
 
 if (lang == "ru") {
    console.log("Понедельник");
@@ -47,11 +47,7 @@ let arr = [
 ];
 
 for (let i = 0; i < 7; i++) {
-   console.log(arr[0][i]);
-}
-console.log("-----------------------------");
-for (let i = 0; i < 7; i++) {
-   console.log(arr[1][i]);
+   lang == "ru" ? console.log(arr[0][i]) : console.log(arr[1][i]);
 }
 console.log("-----------------------------");
 let namePerson = "Артем";
